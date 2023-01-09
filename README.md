@@ -13,7 +13,7 @@ Dogstatsd Excercise
   <h1>4. Run Python program:</h1>
   <pre>python3 weather_code.py &</pre>
   <h3>*Note* using '&' symbol will run program in background</h3>
-  <h1>5. Go to your Datadg account and you should see a list of metrics:</h1>
+  <h1>5. Go to your Datadg account and you should be able to search list of custom created 'weather_code.py' Dogstatsd metrics:</h1>
   <pre>
   <li>temp</li>
     <li>humi</li>
