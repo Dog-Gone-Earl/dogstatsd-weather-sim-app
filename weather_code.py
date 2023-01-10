@@ -29,14 +29,14 @@ while True:
   statsd.gauge('pressure.gauge',pressure, tags=["environment:dev"])
  
   #Histogram (.avg, .median, .count, .max, .95percentile)
-  statsd.histogram('temperature.histogram', temperature, tags=["environment"])
-  statsd.histogram('humidity.histogram', humidity, tags=["environment"])
-  statsd.histogram('pressure.histogram', pressure, tags=["environment"])
+  statsd.histogram('temperature.histogram', temperature, tags=["environment:dev"])
+  statsd.histogram('humidity.histogram', humidity, tags=["environment:dev"])
+  statsd.histogram('pressure.histogram', pressure, tags=["environment:dev"])
   
   #Distribution (avg, count, max, min)
-  statsd.distribution('temperature.distribution', temperature, tags=["environment"])
-  statsd.distribution('humidity.distribution', humidity, tags=["environment"])
-  statsd.distribution('pressure.distribution', pressure, tags=["environment"])
+  statsd.distribution('temperature.distribution', temperature, tags=["environment:dev"])
+  statsd.distribution('humidity.distribution', humidity, tags=["environment:dev"])
+  statsd.distribution('pressure.distribution', pressure, tags=["environment:dev"])
 
 
   time.sleep(10)
