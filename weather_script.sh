@@ -11,4 +11,4 @@ pip3 install datadog
 
 echo "Retrieving Python file"
 sleep 5
-curl https://raw.githubusercontent.com/Dog-Gone-Earl/dogstatsd-weather-sim-app/main/weather_code.py
+curl -0 https://raw.githubusercontent.com/Dog-Gone-Earl/dogstatsd-weather-sim-app/main/weather_code.py
