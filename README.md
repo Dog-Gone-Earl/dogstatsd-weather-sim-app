@@ -4,7 +4,7 @@ Dogstatsd Excercise
 <h1><i>2. Enable Dogstatsd Paramters:</i></h1>
   <h1>3.(Choose your option)</h1>
 <h1>Run 'eval' command:</h1>
-<pre>eval "$(curl -O https://raw.githubusercontent.com/Dog-Gone-Earl/dogstatsd-weather-sim-app/main/weather_script.sh)"</pre>
+<pre>eval "$(curl https://raw.githubusercontent.com/Dog-Gone-Earl/dogstatsd-weather-sim-app/main/weather_script.sh)"</pre>
 <h2>Or</h2>
 <h1>Run 'curl' command</h1>
 <pre>curl https://raw.githubusercontent.com/Dog-Gone-Earl/dogstatsd-weather-sim-app/main/weather_script.sh</pre>
