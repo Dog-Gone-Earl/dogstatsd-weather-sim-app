@@ -11,7 +11,7 @@ initialize(**options)
 
 while True:
 
-  temperature = random.randint(70,75)
+  temperature = round(random.uniform(70,75),2)
   humidity = random.randint(30,35)
   pressure = random.randint(800,1000)
  
