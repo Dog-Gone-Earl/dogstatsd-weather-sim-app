@@ -12,8 +12,8 @@ initialize(**options)
 while True:
 
   temperature = round(random.uniform(70,90),2)
-  humidity = random.randint(30,35)
-  pressure = random.randint(800,1000)
+  humidity = round(random.uniform(30,40),2)
+  pressure = round(random.uniform(800,1100),2)
  
   #Count
   statsd.increment('temperature.count.increment', temperature, tags=["environment:dev"])
