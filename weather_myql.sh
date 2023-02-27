@@ -6,6 +6,11 @@
 #CREATE TABLE weather_data (temp INT(3), humidity INT(3), pressure INT(3));
 #show tables;
 #describe weather_data;
+#use weather_stats;
+#CREATE USER 'DD_TESTER'@'localhost' IDENTIFIED BY 'Datadog2023';
+#GRANT ALL PRIVILEGES ON *.* TO 'DD_TESTER'@'localhost';
+#GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+#FLUSH PRIVILEGES;
 
 echo "Updates! Updates! Updates!"
 sleep 3
@@ -18,6 +23,7 @@ pip3 install datadog
 
 echo "mysql install"
 sudo apt install mysql-server -y
+pip install mysql-connector-python
 
 echo "Retrieving Python file"
 sleep 5
