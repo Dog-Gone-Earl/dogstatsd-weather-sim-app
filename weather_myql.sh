@@ -9,7 +9,6 @@
 #use weather_stats;
 #CREATE USER 'DD_TESTER'@'localhost' IDENTIFIED BY 'Datadog2023';
 #GRANT ALL PRIVILEGES ON *.* TO 'DD_TESTER'@'localhost';
-#GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
 #FLUSH PRIVILEGES;
 
 echo "Updates! Updates! Updates!"
