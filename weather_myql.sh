@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+#sudo mysql
+#CREATE DATABASE weather_stats;
+#use weather_stats;
+#CREATE TABLE weather_data (temp INT(3), humidity INT(3), pressure INT(3));
+#show tables;
+#describe weather_data;
+
 echo "Updates! Updates! Updates!"
 sleep 3
 sudo apt-get update -y && sudo apt-get upgrade -y
@@ -10,7 +17,7 @@ sudo apt install python3-pip -y
 pip3 install datadog
 
 echo "mysql install"
-sudo apt-get install mysql-shell -y
+sudo apt install mysql-server -y
 
 echo "Retrieving Python file"
 sleep 5
