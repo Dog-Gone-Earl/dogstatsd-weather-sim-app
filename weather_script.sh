@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Updates! Updates! Updates!"
-sleep 3
-sudo apt-get update -y && sudo apt-get upgrade -y
 
 echo "Installing pip and datadog"
 sleep 5
